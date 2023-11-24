@@ -1,38 +1,159 @@
-.App {
+.trailing.clear {
+  cursor: pointer;
+
+  &:focus {
+    color: #3b71ca;
+    outline: none;
+  }
+}
+
+.btn{
+  margin-top: 0;
+}
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  width: 100%;
+  /* background-image: url("../img/hero-bg.png"); */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right top;
+  margin-top: 2px;
+  padding: 60px 0;
+}
+#pricesection{
+  width: 920px;
+  /* background-image: url("../img/hero-bg.png"); */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right top;
+  margin-top: 2px;
+  padding: 60px 0;
+  margin: auto;
+}
+.container_info{
+  width: 100%;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 30px 40px;
+  box-shadow: 4px 3px 38px -23px black;
+}
+.playdemo{
+  background-color: white !important;
+  border: none !important;
+  font-weight: 700;
+  color: rgb(6, 6, 82);
+}
+.circle{
+  width: 41px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: #fff;
+  box-shadow: 4px 3px 30px -10px black;
+}
+#hero h1 {
+  margin: 0 0 20px 0;
+  font-size: 25px;
+  /* font-weight: 700; */
+  line-height: 26px;
+  color: #364146;
+}
+
+.text_color{
+  color: rgb(212, 66, 90);
+}
+
+#hero .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 3px;
+  transition: 0.5s;
+  color: #fff;
+  background: #009cea;
+}
+
+#hero .btn-get-started:hover {
+  background: #008bd1;
+}
+
+#hero .hero-img {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+#hero .hero-img img {
+  width: 70%;
+}
+
+/* Styles for wrapping the search box */
+
+.main {
+  width: 50%;
+  margin: 50px auto;
+}
+
+/*  search icon */
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+  position: relative;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
   pointer-events: none;
+  color: #aaa;
+}
+/*  search icon */
+
+.inputcommon{
+  position: relative;
+  top: 20px;
+  left: 10px;
+  z-index: 9;
+  top: 9px;
+  font-size: 10px;
+  left: 8px;
+  padding: 2px 9px;
+  background-color: white;
+}
+@media (min-width: 1027px) {
+  #hero {
+    background-attachment: fixed;
+  }
+  .d-none{
+    display: none;
+  }
+ 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 992px) {
+  #hero h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  #hero h2 {
+    font-size: 20px;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (max-width: 792px) {
+#pricesection{
+  width: 300px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

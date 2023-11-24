@@ -1,0 +1,16 @@
+.footer{
+    background-color: rgb(6, 6, 82) !important;
+    color: white;
+    padding: 10px 10px;
+}
+.circles{
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #fff;
+    box-shadow: 4px 3px 30px -10px black;
+  }
+  a{
+    text-decoration: none;
+  }
