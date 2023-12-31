@@ -91,6 +91,14 @@ export const Footer = () => {
                   </div>
                 </div>
               </div>
+              <div className="footerbottom text-center">
+              <div className="horizontalrow"><hr /></div>
+              <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem  ml-0"></i>ShipUp.ng
+                </h6>
+              </div>
+             
+              
             </div>
           </div>
         </section>

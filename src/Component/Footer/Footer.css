@@ -14,10 +14,16 @@
 a {
   text-decoration: none;
 }
-
+.horizontalrow{
+  width: 90%;
+  margin: auto;
+}
 @media (max-width: 592px) {
   .icon_center {
     width: 169px;
     margin: auto;
+  }
+  .horizontalrow{
+    width: 60%;
   }
 }
