@@ -14,23 +14,6 @@ export const Footer = () => {
   return (
     <>
       <div className="footer">
-        {/* <div className='container'>
-    <div className='row'>
-      <div className='col-md-3'>
-       <h2>ShipUp</h2>
-
-      </div>
-      <div className='col-md-3'>
-
-</div>
-<div className='col-md-3'>
-
-</div>
-<div className='col-md-3'>
-
-</div>
-    </div>
-  </div> */}
         <section class="">
           <div class="container text-center text-md-start mt-5">
             <div class="row mt-3">
@@ -85,23 +68,23 @@ export const Footer = () => {
 
               <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                 <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-                <div className="row">
-                  <div className="col-md-3">
+                <div className="row icon_center">
+                  <div className="col-3 col-md-3 col-sm-3">
                     <a href="#!" class="me-4 text-reset">
                     <FaFacebook />
                     </a>
                   </div>
-                  <div className="col-md-3">
+                  <div className="col-3 col-md-3 col-sm-3">
                     <a href="#!" class="me-4 text-reset">
                       <FaTwitter />
                     </a>
                   </div>
-                  <div className="col-md-3">
+                  <div className="col-3 col-md-3 col-sm-3">
                     <a href="#!" class="me-4 text-reset">
                       <AiFillInstagram />
                     </a>
                   </div>
-                  <div className="col-md-3">
+                  <div className="col-3 col-md-3 col-sm-3">
                     <a href="#!" class="me-4 text-reset">
                       <IoLogoWhatsapp />
                     </a>

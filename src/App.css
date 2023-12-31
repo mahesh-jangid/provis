@@ -7,7 +7,7 @@
   }
 }
 
-.btn{
+.btn {
   margin-top: 0;
 }
 /*--------------------------------------------------------------
@@ -22,17 +22,16 @@
   margin-top: 2px;
   padding: 60px 0;
 }
-#pricesection{
+#pricesection {
   width: 920px;
   /* background-image: url("../img/hero-bg.png"); */
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right top;
   margin-top: 2px;
-  padding: 60px 0;
   margin: auto;
 }
-.container_info{
+.container_info {
   width: 100%;
   border: 1px solid rgb(255, 255, 255);
   background-color: #fff;
@@ -40,13 +39,13 @@
   padding: 30px 40px;
   box-shadow: 4px 3px 38px -23px black;
 }
-.playdemo{
-  background-color: white !important;
+.playdemo {
+  background-color: rgb(255, 255, 255) !important;
   border: none !important;
   font-weight: 700;
-  color: rgb(6, 6, 82);
+  color: rgb(0, 0, 0);
 }
-.circle{
+.circle {
   width: 41px;
   height: 40px;
   border-radius: 50%;
@@ -57,12 +56,12 @@
 #hero h1 {
   margin: 0 0 20px 0;
   font-size: 25px;
-  /* font-weight: 700; */
+  font-weight: 700;
   line-height: 26px;
   color: #364146;
 }
 
-.text_color{
+.text_color {
   color: rgb(212, 66, 90);
 }
 
@@ -77,22 +76,21 @@
   border-radius: 3px;
   transition: 0.5s;
   color: #fff;
-  background: #009cea;
+  background: #044d71;
 }
 
 #hero .btn-get-started:hover {
-  background: #008bd1;
+  background: #1100d1;
 }
 
 #hero .hero-img {
   text-align: center;
+  margin-bottom: 35px;
 }
 
 #hero .hero-img img {
   width: 70%;
 }
-
-/* Styles for wrapping the search box */
 
 .main {
   width: 50%;
@@ -119,7 +117,7 @@
 }
 /*  search icon */
 
-.inputcommon{
+.inputcommon {
   position: relative;
   top: 20px;
   left: 10px;
@@ -130,30 +128,149 @@
   padding: 2px 9px;
   background-color: white;
 }
+
+.joinbtn {
+  transition: transform 0.3s ease;
+}
+
+.joinbtntwo {
+  font-weight: 700;
+  border: #050e56;
+  border-radius: 15px;
+  background-color: #050e56;
+  height: 47px;
+  width: 130px;
+  transition: font-weight 0.3s ease, transform 0.3s ease;
+}
+.joinbtntwo:hover {
+  transform: scale(0.1);
+  font-weight: 800;
+}
+
+.joinbtn:hover {
+  transform: scale(1.1);
+}
+
+.playdemo {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  position: relative;
+}
+
+.playdemo:hover {
+  opacity: 0.8;
+  color: #000000;
+  transform: scale(1.1);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.playdemo.clicked {
+  opacity: 0;
+  transform: scale(0);
+}
+
+.joinbtn {
+  border-radius: 15px;
+  border: #050e56;
+  font-weight: 700;
+  width: 100px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.joinbtn:hover {
+  background-color: #0a0778;
+  color: white;
+  transform: scale(1.1);
+  font-weight: 700;
+}
+
+.joinbtntwo:hover {
+  background-color: #050e56;
+  color: white;
+  transform: scale(1.1);
+  font-weight: 700;
+}
+
+.pricebtn {
+  height: 47px;
+
+  background-color: #050e56;
+  border-radius: 15px;
+  border: #050e56;
+  font-weight: 700;
+  width: 100px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.pricebtn:hover {
+  background-color: #050e56;
+  color: white;
+  transform: scale(1.1);
+  font-weight: 700;
+}
+
+/* Media query */
+@media (max-width: 767px) {
+  .joinbtntwo {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .joinbtn {
+    font-size: 14px;
+  }
+}
+
 @media (min-width: 1027px) {
   #hero {
     background-attachment: fixed;
   }
-  .d-none{
+  .d-none {
     display: none;
   }
- 
 }
 
 @media (max-width: 992px) {
   #hero h1 {
-    font-size: 32px;
+    font-size: 29px;
     line-height: 40px;
   }
 
   #hero h2 {
-    font-size: 20px;
+    font-size: 28px;
   }
 }
-@media (max-width: 792px) {
-#pricesection{
-  width: 300px;
+@media (max-width: 592px) {
+  #hero h1 {
+    margin-top: 10px;
+    font-size: 23px;
+    line-height: 20px;
+  }
+
+  #hero h2 {
+    font-size: 23px;
+  }
+}
+@media (max-width: 750px) {
+  #pricesection {
+    width: 330px;
+  }
 }
 
+@media (max-width: 592px) {
+  .joinbtn {
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+  }
+}
+@media (max-width: 592px) {
+  .joinbtn {
+    transition: transform 0.3s ease;
+  }
+}
 
+@media (max-width: 592px) {
+  .playdemo {
+    margin-top: 35px;
+  }
 }
