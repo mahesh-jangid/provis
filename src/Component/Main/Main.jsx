@@ -68,10 +68,10 @@ export const Main = (props) => {
                   Here you can use rows and columns to organize your footer
                   content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 </p>
-                <div className="row">
+                <div className="row mt-4">
                   <div className="col-md-8 col-sm-12 fullwidth">
                     <div className="row ml-0 justify-content-start">
-                      <div className="col-md-4 col-sm-4 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                      <div className="col-md-4 col-sm-4 col-lg-4 d-flex flex-column justify-content-center align-items-center ml-3">
                         <Button className="joinbtn btn-lg btn-sm">Join Now</Button>
                       </div>
                       <div className="col-md-3 col-sm-4 col-lg-4 d-flex flex-column justify-content-center align-items-center ml-0">

@@ -55,7 +55,7 @@
 }
 #hero h1 {
   margin: 0 0 20px 0;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 26px;
   color: #364146;
@@ -232,7 +232,7 @@
 
 @media (max-width: 992px) {
   #hero h1 {
-    font-size: 29px;
+    font-size: 40px;
     line-height: 40px;
   }
 
@@ -249,6 +249,16 @@
 
   #hero h2 {
     font-size: 23px;
+  }
+}
+@media (max-width: 320px) {
+  #hero h1 {
+    font-size: 20px;
+    line-height: 10px;
+  }
+
+  #hero h2 {
+    font-size: 28px;
   }
 }
 @media (max-width: 750px) {
